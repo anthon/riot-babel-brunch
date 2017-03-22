@@ -1,0 +1,33 @@
+{
+  "name": "riot-babel-brunch",
+  "version": "0.1.0",
+  "description": "",
+  "main": "scripts/index.js",
+  "scripts": {
+    "start": "NODE_ENV=development ./node_modules/brunch/bin/brunch watch",
+    "build": "./node_modules/brunch/bin/brunch build --production"
+  },
+  "author": "A/Z",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "lodash": "^4.12.0"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "babel-brunch": "^6.1.1",
+    "babel-preset-es2015-riot": "^1.1.0",
+    "brunch": "^2.10",
+    "chai": "^3.5.0",
+    "chai-jquery": "^2.0.0",
+    "coffee-script-brunch": "^2.0.0",
+    "events": "^1.1.0",
+    "jade": "^1.11.0",
+    "jade-brunch": "^2.8.0",
+    "javascript-brunch": "^2.0.0",
+    "jquery": "^3.1",
+    "jsdom": "^9.5",
+    "riot-brunch": "0.0.4",
+    "stylus-brunch": "^2.6.0"
+  }
+}
